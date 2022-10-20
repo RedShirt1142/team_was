@@ -50,7 +50,7 @@
                     <td>{{$user->address}}</td>
                     @can('Admin-only')
                     <td>
-                        <a href="/user/edit/{{$user->id}}" class="btn btn-danger"><i class="fa fa-btn fa-trash"></i>編集</a> 
+                        <!-- <a href="/user/edit/{{$user->id}}" class="btn btn-danger"><i class="fa fa-btn fa-trash"></i>編集</a>  -->
                         <a href="/user/{{$user->id}}" class="btn btn-danger"><i class="fa fa-btn fa-trash"></i>削除</a>     
                     </td>
                     @endcan
